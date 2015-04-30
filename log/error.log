@@ -1,0 +1,95 @@
+[30/Apr/2015:08:27:44 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:08:27:59 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:08:27:59 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:24:59 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:25:26 -0500] During processing of request from 127.0.0.1:54455
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:54455\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/todos\n    contextpath: /\n    URI: /api/todos\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:25:38 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:25:38 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:27:11 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:27:22 -0500] During processing of request from 127.0.0.1:54461
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:54461\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:27:25 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:27:25 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:29:09 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:29:43 -0500] During processing of request from 127.0.0.1:54488
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:54488\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:29:54 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:29:54 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:33:22 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:33:24 -0500] During processing of request from 127.0.0.1:56107
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56107\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:33:56 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:33:56 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:34:06 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:34:08 -0500] During processing of request from 127.0.0.1:56112
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56112\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:34:42 -0500] During processing of request from 127.0.0.1:56138
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56138\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:34:44 -0500] During processing of request from 127.0.0.1:56141
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56141\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:34:55 -0500] During processing of request from 127.0.0.1:56144
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56144\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:35:13 -0500] During processing of request from 127.0.0.1:56147
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56147\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:35:47 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:35:47 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:35:52 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:35:54 -0500] During processing of request from 127.0.0.1:56150
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56150\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  role "postgres" does not exist
+)
+[30/Apr/2015:12:36:41 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:36:41 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:36:46 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:40:01 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:40:01 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:43:18 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:12:43:31 -0500] During processing of request from 127.0.0.1:56219
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56219\n    local: 127.0.0.1:9000\n    Headers:\n      ========================================\n          Content-Length: 22\n User-Agent: curl/7.30.0\n Host: localhost:9000\n Accept: */*\n Content-Type: application/json\n      ========================================\n    content-length: Just 22\n    method: PUT\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: api/appliances\n    contextpath: /\n    URI: /api/appliances\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "column \"text\" of relation \"appliances\" does not exist", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/Apr/2015:12:43:42 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:12:43:42 -0500] Server.httpServe: BACKEND STOPPED
+[30/Apr/2015:12:49:37 -0500] Server.httpServe: START, binding to [http://0.0.0.0:9000/]
+[30/Apr/2015:13:06:05 -0500] Server.httpServe: SHUTDOWN
+[30/Apr/2015:13:06:05 -0500] Server.httpServe: BACKEND STOPPED
