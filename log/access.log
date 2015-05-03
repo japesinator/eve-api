@@ -22,3 +22,6 @@
 127.0.0.1 - - [30/Apr/2015:13:05:39 -0500] "GET /api/appliances HTTP/1.1" 200 - - "curl/7.30.0"
 127.0.0.1 - - [30/Apr/2015:13:05:54 -0500] "PUT /api/appliances HTTP/1.1" 200 - - "curl/7.30.0"
 127.0.0.1 - - [30/Apr/2015:13:05:58 -0500] "GET /api/appliances HTTP/1.1" 200 - - "curl/7.30.0"
+127.0.0.1 - - [30/Apr/2015:15:03:51 -0500] "GET /api/appliances HTTP/1.1" 200 - - "curl/7.30.0"
+127.0.0.1 - - [30/Apr/2015:15:04:19 -0500] "PUT /api/appliances HTTP/1.1" 200 - - "curl/7.30.0"
+127.0.0.1 - - [30/Apr/2015:15:04:22 -0500] "GET /api/appliances HTTP/1.1" 200 - - "curl/7.30.0"

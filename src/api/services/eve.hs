@@ -45,11 +45,12 @@ instance FromJSON Change where
 changeAppliance :: Handler b ApplianceService ()
 changeAppliance = do
   (change :: Maybe Change) <- decode <$> readRequestBody 5000
+  modifyResponse $ setHeader "Content-Type" "application/json"
   case change of
-       Nothing                  -> writeLBS "failure"
+       Nothing                 -> writeLBS "{\"status\": \"failure\"}"
        Just (Change id' state) -> do
          _ <- execute "UPDATE appliances SET state = (?) WHERE id = (?)" [state, T.pack $ show id']
-         writeLBS "ok"
+         writeLBS "{\"status\": \"success\"}"
 
 instance HasPostgres (Handler b ApplianceService) where
   getPostgresState = with pg get
