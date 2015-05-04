@@ -9,7 +9,6 @@ import           Api.Types
 import           Control.Applicative
 import           Control.Lens (makeLenses)
 import           Control.Monad
-import           Control.Monad.State.Class (get)
 import           Data.Aeson
 import           Snap.Core
 import           Snap.Snaplet
@@ -27,7 +26,7 @@ applianceRoutes = [ ("/", method GET getAppliances)
 
 getAppliances :: Handler b ApplianceService ()
 getAppliances = do
-  appliances <- query_ "SELECT * FROM appliances"
+  appliances <- with pg $ query_ "SELECT * FROM appliances"
   modifyResponse $ setHeader "Content-Type" "application/json"
   writeLBS . encode $ (appliances :: [Appliance])
 
@@ -49,11 +48,8 @@ changeAppliance = do
   case change of
        Nothing                 -> writeLBS "{\"status\": \"failure\"}"
        Just (Change id' state) -> do
-         _ <- execute "UPDATE appliances SET state = (?) WHERE id = (?)" [state, T.pack $ show id']
+         _ <- with pg $ execute "UPDATE appliances SET state = (?) WHERE id = (?)" [state, T.pack $ show id']
          writeLBS "{\"status\": \"success\"}"
-
-instance HasPostgres (Handler b ApplianceService) where
-  getPostgresState = with pg get
 
 applianceServiceInit :: SnapletInit b ApplianceService
 applianceServiceInit = makeSnaplet "appliances" "Appliance Service" Nothing $ do
